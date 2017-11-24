@@ -21,7 +21,7 @@ loadPage = function(pagename) {
       pageconts = pageconts + Page.Home + "</body></html>";
     break;
     case "media":
-      pageconts = pageconts + Page.Media + "</body></html>;
+      pageconts = pageconts + Page.Media + "</body></html>";
       break;
     case "about":
       pageconts = pageconts + Page.About + "</body></html>";
