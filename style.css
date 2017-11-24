@@ -31,7 +31,7 @@ background-color: #661b00;
 .navlir .nava:hover {
 background-color: #661b00;
 }
-.sidebar { float: right; height: 80vh;position: static;}
+.sidebar { float: right; height: 80vh;position: fixed;}
 .absolute {position: absolute;}
 .CenterHor {left: 50%; transform: translateX(-50%);}
 .CenterVert {top: 50%; transform: translateY(-50%);}
