@@ -9,7 +9,7 @@ background-color: #af2e00;
 float: left;
 }
 .navlir {
-  right: 0px;
+  float: right;
 }
 .navli .nava {
 display: block;
