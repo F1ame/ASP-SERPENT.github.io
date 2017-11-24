@@ -29,7 +29,7 @@ loadPage = function(pagename) {
       pageconts = pageconts + Page.Staff + "</body>";
       break;
     case "FfAQ":
-      pageconts = pageconts + Page.FAQ + "</body>";
+      pageconts = pageconts + Page.FfAQ + "</body>";
       Break;
   }
   document.getElementById("bdy").innerHTML = pageconts;
