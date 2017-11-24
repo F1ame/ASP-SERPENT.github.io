@@ -27,5 +27,5 @@ loadPage = function(pagename) {
       pageconts = pageconts + Page.About + "</body></html>";
       break;
   }
-  document.write(pageconts);
+  document.innerhtml(pageconts);
 };
