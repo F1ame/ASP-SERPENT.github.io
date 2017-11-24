@@ -30,7 +30,7 @@ loadPage = function(pagename) {
       break;
     case "FfAQ":
       pageconts = pageconts + Page.FfAQ + "</body>";
-      Break;
+      break;
   }
   document.getElementById("bdy").innerHTML = pageconts;
 };
