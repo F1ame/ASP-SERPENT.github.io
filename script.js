@@ -27,6 +27,9 @@ loadPage = function(pagename) {
     case "staff":
       pageconts = pageconts + Page.Staff + "</body>";
       break;
+    case "FAQ":
+      pageconts = pageconts + Page.FAQ + "</body>";
+      Break;
   }
   document.getElementById("bdy").innerHTML = pageconts;
 };
