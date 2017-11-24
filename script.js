@@ -15,7 +15,7 @@ Media: "<"
 
 }
 loadPage = function(pagename) {
-  pageconts = Page.Head + "</head><body>" + Page.NavBar;
+  pageconts = Page.Head + Page.NavBar + "</head><body>";
   switch(pagename) {
     case "home":
       pageconts = pageconts + Page.Home + "</body></html>";
