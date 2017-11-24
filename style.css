@@ -21,3 +21,4 @@ background-color: #661b00;
 .absolute {position: absolute;}
 .CenterHor {left: 50%; transform: translateX(-50%);}
 .CenterVert {top: 50%; transform: translateY(-50%);}
+Body {background: lightgrey url("http://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/tumblr_o25lubbSXv1qzwtdlo1_1280.jpg") cover no-repeat fixed center;}
