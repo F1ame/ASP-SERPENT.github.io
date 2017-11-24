@@ -9,7 +9,7 @@ Chat: "<iframe class=\"sidebar\" allowfullscreen=\"true\" src=\"https://mixer.co
   NavBar: "<ul class=\"navul\"><li class=\"navli\"><a class=\"nava\" onclick=\"loadPage(\'home\');\">Home</a></li><li class=\"navli\"><a class=\"nava\" onclick=\"loadPage(\'media\')\">Watch</a></li><li class=\"navli\"><a class=\"nava\" onclick=\"loadPage(\'about\')\">About</a></li><li class=\'navli\'><a class=\'nava\' href=\'https://mixer.com/ASP_SERPENT\'>Go To Stream</a></li><li class=\'navli\'><a class=\'nava\' onclick=\"loadPage(\'staff\');\">Our Staff</a></li></ul><br>",
 Home: "<div class=\"CenterHor CenterVert absolute\"><h1 style=\"color: red;\">CUCK</h1></div>",
 Media: "<iframe class=\"vide\" allowfullscreen=\"true\" src=\"https://mixer.com/embed/player/1114958\"></iframe><br><iframe src=\"https://discordapp.com/widget?id=310954900823474177&theme=dark\" class=\"disc\" allowtransparency=\"true\" frameborder=\"0\"></iframe>",
-About: "<h1>Rule #1 <br>No Spoilers<br>Rule #2<br> There are no other rules</h1><div>Site put together by clockdaddy</div>",
+About: "<h1>Rule #1 <br>No Spoilers<br>Rule #2<br> There are no other rules</h1><br><h2>ASP_SERPENT mostly does Dark Souls 3, but sometimes you can catch him playing Rainbow Six: Siege, and For Honor</h2><div>Site put together by clockdaddy</div>",
 Staff: "<h1>Our Staff</h1><br><h2>ASP_SERPENT - Streamer<br>ClockDaddy - Moderator / Web Master<br>StOnEr_SlOtH_66 - Moderator<br>DeadShot999X - Moderator<br>tykodey - Moderator<br>"
 }
 loadPage = function(pagename) {
