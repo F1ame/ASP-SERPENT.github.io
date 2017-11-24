@@ -15,17 +15,17 @@ About: "<div>Page put together by clockdaddy</div>"
 
 }
 loadPage = function(pagename) {
-  pageconts = Page.Head + Page.NavBar + "</head><body>";
+  pageconts = "uhh";
   switch(pagename) {
     case "home":
-      pageconts = pageconts + Page.Home + "</body></html>";
+      pageconts =Page.Home;
     break;
     case "media":
-      pageconts = pageconts + Page.Media + "</body></html>";
+      pageconts =Page.Media;
       break;
     case "about":
-      pageconts = pageconts + Page.About + "</body></html>";
+      pageconts =Page.About;
       break;
   }
-  document.write(pageconts);
+  document.getElementById("bdy").innerHTML(pageconts);
 };
