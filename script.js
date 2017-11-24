@@ -1,7 +1,5 @@
 /*asp wants this stuff
 homepage giant text saying -CUCK-
-
-
 pages
 Home Media About
 */
@@ -15,17 +13,17 @@ About: "<div>Page put together by clockdaddy</div>"
 
 }
 loadPage = function(pagename) {
-  pageconts = "uhh";
+  pageconts = Page.Head + Page.NavBar + "</head><body>";
   switch(pagename) {
     case "home":
-      pageconts =Page.Home;
+      pageconts = pageconts + Page.Home + "</body></html>";
     break;
     case "media":
-      pageconts =Page.Media;
+      pageconts = pageconts + Page.Media + "</body></html>";
       break;
     case "about":
-      pageconts =Page.About;
+      pageconts = pageconts + Page.About + "</body></html>";
       break;
   }
-  document.getElementById("bdy").innerHTML(pageconts);
+  document.innerHTML = pageconts;
 };
