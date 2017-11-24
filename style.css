@@ -18,9 +18,9 @@ text-decoration: none;
 .navli .nava:hover {
 background-color: #661b00;
 }
-.sidebar { right: 0; height: calc(100vh - 54px);top: 58px; position: absolute; overflow: hidden;}
+.sidebar { float: right; right: 0; height: calc(100vh - 58px);top: 58px; position: absolute; overflow: hidden;}
 .absolute {position: absolute;}
 .CenterHor {left: 50%; transform: translateX(-50%);}
 .CenterVert {top: 50%; transform: translateY(-50%);}
-Body {height: 100%; overflow: hidden;background: #af2e00 url("http://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/tumblr_o25lubbSXv1qzwtdlo1_1280.jpg") no-repeat fixed 0px 54px; background-size: cover;}
-.vide { position: absolute; top: 58px; left: 0px; }
+Body {height: 100%; background: #af2e00 url("http://darksouls3.wiki.fextralife.com/file/Dark-Souls-3/tumblr_o25lubbSXv1qzwtdlo1_1280.jpg") no-repeat fixed 0px 54px; background-size: cover;}
+.vide { height: 80%; width: calc(100% - 310px); }
