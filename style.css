@@ -18,7 +18,17 @@ text-align: center;
 padding: 14px 16px;
 text-decoration: none;
 }
+.navlir .nava {
+display: block;
+color: #d3b000;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
 .navli .nava:hover {
+background-color: #661b00;
+}
+.navlir .nava:hover {
 background-color: #661b00;
 }
 .sidebar { float: right; height: 80vh;}
