@@ -18,7 +18,7 @@ text-decoration: none;
 .navli .nava:hover {
 background-color: #661b00;
 }
-.sidebar { float: right; height: calc(100vh - 54px);top: 54px; position: static; overflow: hidden;}
+.sidebar { right: 0; height: calc(100vh - 54px);top: 54px; position: absolute; overflow: hidden;}
 .absolute {position: absolute;}
 .CenterHor {left: 50%; transform: translateX(-50%);}
 .CenterVert {top: 50%; transform: translateY(-50%);}
